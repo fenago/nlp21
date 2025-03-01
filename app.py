@@ -40,6 +40,8 @@ with open('tfidf_vectorizer.pkl', 'rb') as f:
 label_mapping = {0: "negative", 1: "neutral", 2: "positive"}
 
 # Streamlit UI
+st.image("https://acue.org/wp-content/uploads/2022/10/1200px-Miami_Dade_College_logo.svg-768x811.png", width=200)
+
 st.title("Multiclass Sentiment Classification")
 
 user_input = st.text_area("Enter text to classify")
